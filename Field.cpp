@@ -200,6 +200,7 @@ void Field::updateFall()
 			assert(checkY >= 0);
 			assert(checkY < kFieldY);
 
+			// ‰º‚É‚Õ‚æ‚ª‚È‚¢or‰º‚Ì‚Õ‚æ‚à—‰º’†
 			if( (m_field[checkY][checkX] == Color_None) ||
 				(m_fallRate[checkY][checkX] > 0.0f) )
 			{
